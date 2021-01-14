@@ -1,0 +1,43 @@
+a {
+	  text-decoration-color: black;
+		  color: cornflowerblue;
+}
+
+li{
+	margin : 3px 0px;
+}
+
+
+.description {
+	width : 93vw;
+	height: 40vh;
+}
+
+.title {
+	text-align: center;
+}
+
+.deleteContainer{
+	display:inline-block;
+}
+
+.deleteBtn{
+	appearance: none;
+	border: 0;
+	color: cornflowerblue;
+	background-color: transparent;
+	text-decoration-line : underline;
+	font-size:1em;
+	padding:0;
+	cursor : pointer;
+	text-decoration-color: black;
+}
+
+.author_table{
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid black;
+}
+

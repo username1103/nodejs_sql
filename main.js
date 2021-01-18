@@ -65,6 +65,10 @@ const app = http.createServer(function (req, res) {
 		
 		author.delete_process(req,res);
 
+	} else if(pathname === '/search_process'){
+		
+		topic.search_process(req,res);
+
 	} else {
 		res.writeHead(404);
 		let html = template.getNotFound;

@@ -1,0 +1,5 @@
+# no db.js file
+db.js
+
+# ignore all files in the node_modules/ directory
+node_modules/
